@@ -1,0 +1,2 @@
+import povray_vehicle_gui
+povray_vehicle_gui.make_window()
