@@ -65,7 +65,7 @@ def make_window():
         elif temp_flag ==3:
             messagebox.showinfo("エラー","画像出力に失敗しました")
     main_win = tk.Tk()
-    main_win.title("simutrans building addon maker with pov-ray")
+    main_win.title("simutrans vehicle addon maker with pov-ray")
     main_win.geometry("700x200")
     main_frm = ttk.Frame(main_win)
     main_frm.grid(column=0, row=0, sticky=tk.NSEW, padx=10, pady=10)
